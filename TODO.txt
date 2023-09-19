@@ -1,4 +1,2 @@
-1. add moving horizontal skills 
-2. do offset 
-3.add gmail contact form in portfolio site
-4. make array for code and link of projects
+1. add gmail contact form in portfolio site
+2. improve UI if possible

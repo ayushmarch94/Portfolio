@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+#about{
+    display: flex;
+}
+
+#about img{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+
+#skills img{
+    width: 100px;
+    height: 100px;
+}

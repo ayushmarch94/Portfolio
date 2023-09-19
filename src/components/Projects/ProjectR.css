@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+    #Projects{
+        height: 80%px;
+        width: 100%;
+        background-color: black;
+        margin-top: 38%;
+    }
+    
+}

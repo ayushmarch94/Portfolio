@@ -13,7 +13,7 @@ export default function Navbar() {
         <p>Web Developer</p>
         <ul>
           <li id="home"> 
-            <a  className="scrollDown" href=".face">
+            <a  className="scrollDown" href="#face">
             </a>
               Home
           </li>
@@ -28,7 +28,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className="scrollDown" href="#Contact">
+            <a className="scrollDown" href="#contact">
             Contact Me
             </a>
           </li>

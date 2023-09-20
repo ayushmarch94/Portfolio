@@ -17,6 +17,7 @@ export default function AboutMe() {
     >
       <img src={require("../../images/image.jpg")} width={30} />
       <div id="skills">
+        <p>SKILLS</p>
         <img src={require("../../images/js.png")} />
         <img src={require("../../images/react.png")} />
         <img src={require("../../images/html.png")} />

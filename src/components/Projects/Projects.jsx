@@ -18,6 +18,7 @@ export default function Projects() {
     
     
     id="Projects" className="Projects">
+      <p id="para">Projects</p>
       <div className="Components">
         {Array.map((project) => (
           <div className="compdiv" key={project.key}>

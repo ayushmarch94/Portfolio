@@ -24,3 +24,9 @@
     width: 100px;
     height: 100px;
 }
+
+#skills p{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}

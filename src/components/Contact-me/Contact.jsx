@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import "./ContactRes.css";
 import { send } from "@emailjs/browser";
 
 export default function Contact() {
@@ -17,7 +18,7 @@ export default function Contact() {
         data-aos-anchor-placement="top-center"
         className="face-main"
       >
-        <div className="contact">
+        <div id="contact" className="contact">
           <form action="https://formspree.io/f/xbjvzkja" method="POST" className="ContactBox">
             <h1>Contact Me</h1>
             <input name="name" placeholder="NAME" type="text" id="name" />

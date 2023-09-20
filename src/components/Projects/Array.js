@@ -2,7 +2,7 @@ const Array = [
     {
       key: 1,
       image: require("../../images/portfolio.png"),
-      code: "https://github.com/ayushmarch94/Portfolio",
+      code: "",
       site: "https://ayush94.netlify.app/",
     },
     {

@@ -8,11 +8,26 @@ export default function Contact() {
 
   return (
     <>
-      <div className="footer">
-        <div className="icons">
-          <div id="logo">
-            <img src={require("../../images/gmail.png")} width={30} />
-          </div>
+      <div
+        data-aos="fade-down"
+        data-aos-offset="0"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        className="face-main"
+      >
+        <div className="contact">
+          <form className="ContactBox">
+            <h1>Contact Me</h1>
+            <input placeholder="NAME" type="text" id="name" />
+            <input placeholder="SUBJECT" type="text" id="Subject" />
+            <input placeholder="YOUR EMAIL ID" type="text" id="emailAddress" />
+            <textarea placeholder="ENTER MESSAGE" type="text" id="message" />
+            <button>Submit</button>
+          </form>
         </div>
       </div>
     </>

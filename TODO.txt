@@ -1,2 +1,2 @@
-1. add gmail contact form in portfolio site
+1. add gmail contact form in portfolio site (do backend of it)
 2. improve UI if possible

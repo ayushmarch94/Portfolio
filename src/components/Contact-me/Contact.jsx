@@ -22,7 +22,7 @@ export default function Contact() {
           <form action="https://formspree.io/f/xbjvzkja" method="POST" className="ContactBox">
             <h1>Contact Me</h1>
             <input name="name" placeholder="NAME" type="text" id="name" />
-            <input name="email" placeholder="YOUR EMAIL ID" type="email" id="emailAddress" />
+            <input name="email" placeholder="YOUR EMAIL ID" type="email" id="emailAddress" required />
             <textarea name="message" placeholder="ENTER MESSAGE" type="text" id="message" />
             <button  type="submit" value={send}>Submit</button>
           </form>

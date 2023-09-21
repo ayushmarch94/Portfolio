@@ -23,6 +23,12 @@ const Array = [
       code: "https://github.com/ayushmarch94/To-do-list",
       site: "https://to-do-list-by-ayush.netlify.app/",
     },
+    {
+      key: 5,
+      image: require("../../images/password.png"),
+      code: "https://github.com/ayushmarch94/Password-Generator",
+      site: "https://password-generator-app-ayush.netlify.app/",
+    },
   ];
   
   export default Array;

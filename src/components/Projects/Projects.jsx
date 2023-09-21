@@ -27,23 +27,20 @@ export default function Projects() {
               <hr></hr>
             </div>
             <div className="redirect">
-              <img
-                onClick={() => window.open(project.code, "_blank")}
-                src={require("../../images/github.png")}
-                width={30}
-              />
-              <p
+
+            <p
                 style={{ cursor: "pointer" }}
                 onClick={() => window.open(project.code, "_blank")}
               >
                 Code
               </p>
-
               <img
-                onClick={() => window.open(project.site, "_blank")}
-                src={require("../../images/browser.png")}
+                onClick={() => window.open(project.code, "_blank")}
+                src={require("../../images/github.png")}
                 width={30}
               />
+
+
               <p
                 style={{ cursor: "pointer" }}
                 onClick={() => window.open(project.site, "_blank")}
@@ -51,6 +48,11 @@ export default function Projects() {
               >
                 Site
               </p>
+              <img
+                onClick={() => window.open(project.site, "_blank")}
+                src={require("../../images/browser.png")}
+                width={30}
+              />
             </div>
           </div>
         ))}

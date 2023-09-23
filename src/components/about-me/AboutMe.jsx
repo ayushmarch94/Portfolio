@@ -8,7 +8,7 @@ export default function AboutMe() {
       data-aos="fade-down"
       data-aos-offset="0"
       data-aos-delay="0"
-      data-aos-duration="1000"
+      data-aos-duration="300"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       data-aos-once="false"
@@ -19,7 +19,7 @@ export default function AboutMe() {
       <div id="skills">
         <p>SKILLS</p>
         <img src={require("../../images/js.png")} />
-        <img src={require("../../images/react.png")} />
+        <img id='react' src={require("../../images/react.png")} />
         <img src={require("../../images/html.png")} />
         <img src={require("../../images/CSS.png")} />
       </div>

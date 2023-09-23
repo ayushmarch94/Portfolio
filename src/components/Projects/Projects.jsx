@@ -10,7 +10,7 @@ export default function Projects() {
     data-aos="fade-down"
     data-aos-offset="120"
     data-aos-delay="0"
-    data-aos-duration="1000"
+    data-aos-duration="300"
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false"

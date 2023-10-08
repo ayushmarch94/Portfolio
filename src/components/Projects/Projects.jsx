@@ -6,7 +6,6 @@ import Array from "./Array";
 export default function Projects() {
   return (
     <div
-    
     data-aos="fade-down"
     data-aos-offset="120"
     data-aos-delay="0"
@@ -23,7 +22,7 @@ export default function Projects() {
         {Array.map((project) => (
           <div className="compdiv" key={project.key}>
             <div className="image">
-              <img src={project.image} width={300} />
+              <img onClick={() => window.open(project.site, "_blank")} src={project.image} width={300} />
               <hr></hr>
             </div>
             <div className="redirect">

@@ -32,6 +32,12 @@ const Array = [
       code: "https://github.com/ayushmarch94/To-do-list",
       site: "https://to-do-list-by-ayush.netlify.app/",
     },
+    {
+      key: 6,
+      image: require("../../images/Spotify.png"),
+      code: "https://github.com/ayushmarch94/SpotifyClone",
+      site: "https://spotify-clone94.netlify.app/",
+    },
   ];
   
   export default Array;

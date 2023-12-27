@@ -2,8 +2,8 @@ const Array = [
     {
       key: 1,
       image: require("../../images/weather.png"),
-      code: "https://github.com/ayushmarch94/Weather-app",
-      site: "https://weather-app-ayushk.netlify.app/",
+      code: "https://github.com/ayushmarch94/Weather-report-site",
+      site: "https://weather-site-ayushk.netlify.app/",
     },
 
     {

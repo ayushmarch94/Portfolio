@@ -1,0 +1,4 @@
+1. add font style
+2. create logo from canva
+3. edit the same background picture 
+4. make responsive for ipad air and i pad pro(do in last)

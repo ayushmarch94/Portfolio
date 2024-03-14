@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-.frontPage{
+#frontPage{
     height: 100vh;
     width: 100%;
     background-color: black;
@@ -26,6 +26,12 @@ nav ul{
 
 nav ul li{
     margin: 20px;
+    border-bottom: 4px solid black;
+    transition: 0.5s;
+}
+nav ul li:hover{
+    margin: 20px;
+    border-bottom: 4px solid #ff004f;
 }
 
 nav ul li a{

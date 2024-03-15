@@ -1,32 +1,76 @@
-@media only screen and (max-width: 668px){
-    nav ul{
-        display: none;
-    }
+@media only screen and (max-width: 668px) {
+  nav ul {
+    display: none;
+  }
 
-    .textarea{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 80px;
-        margin-left: 0px;
-        width: 100%;
-    }
+  .textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 0px;
+    width: 100%;
+  }
 
-    .textarea p{
-        font-size: 20px;
-        margin: 30px;
-    }
-    .textarea h1{
-        font-size: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .textarea p {
+    font-size: 20px;
+    margin: 30px;
+  }
+  .textarea h1 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    #name{
-        font-size: 30px;
-    }
+  #name {
+    font-size: 30px;
+  }
+}
 
+
+@media only screen and (max-width: 900px) {
+    
+#about-me{
+    height: 180vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+#about-me img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.aboutMe{
+    height: 150vh;
+    width: 90%;
+}
+
+.aboutMe h1{
+    color: white;
+    font-size: 50px;
+    text-align: center; 
+}
+
+.aboutMe p{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    height: 150px;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 500px){
+    #about-me{
+        height: 250vh;
+    }
 }

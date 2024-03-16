@@ -80,7 +80,7 @@ nav ul li a{
 }
 
 .aboutMe h1{
-    color: white;
+    color: #ff004f;
     font-size: 70px;
     text-align: center;
     margin: 30px;
@@ -92,4 +92,170 @@ nav ul li a{
     font-size: 20px;
     text-align: left;
     width: 600px;
+}
+
+
+/*--------------------------- projects------------------ */
+
+#projects{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.project-heading{
+    padding: 10px;
+}
+
+.project-heading h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.project-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid gray;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    color: #ff004f;
+}
+
+.card h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.card img{
+    width: 230px;
+    margin: 10px;
+}
+
+.card h5{
+    text-align: center;
+    color: white;
+}
+
+.card p{
+    text-align: center;
+    color:white
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.points{
+    margin-top: 30px;
+}
+
+.points p{
+    margin-top: 10px;
+}
+
+/*-------------------------- conatct ------------------ */
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    margin-top: 50px;
+    height: 80vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1{
+    color: #ff004f;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info button{
+    color: white;
+    background-color: #ff004f;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form{
+    margin-top: 50px;
+    height: 80vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+}
+
+form input{
+    margin: 10px;
+    height: 30px;
+    width: 450px;
+    border: none;
+    background-color: #282828;
+    padding: 10px;
+    margin-top: 45px;
+}
+
+form textarea{
+    margin: 10px;
+    height: 70px;
+    width: 450px;
+    background-color: #282828;
+    padding: 10px;
+    margin-top: 45px;
+    border: none;
+}
+
+form button{
+    margin: 10px;
+    height: 40px;
+    background-color: #ff004f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 450px;
+    margin-top: 45px;
+    cursor: pointer;
 }

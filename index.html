@@ -57,7 +57,7 @@
           <img src="./images/css.png">
         </div>
         <div class="boxes">
-          <h2>JavaScript</h2>
+          <h2 class="c-w">JavaScript</h2>
           <img src="./images/js.png">
         </div>
         <div class="boxes">
@@ -65,7 +65,7 @@
           <img src="./images/php.png">
         </div>
         <div class="boxes">
-          <h2>Wordpress</h2>
+          <h2 class="c-w">Wordpress</h2>
           <img id="wp" src="./images/wordpress.png">
         </div>
       </div>
@@ -133,11 +133,12 @@
         </div>
       </div>
       <div class="form">
-        <form>
-          <input name="user_name" placeholder="Enter your name" />
-          <input name="user_email" placeholder="Enter your email" />
-          <textarea name="message" placeholder="Enter message"></textarea>
-          <input id="submit" type="submit" value="Send">
+        <form action="https://api.web3forms.com/submit"           method="POST">
+            <input type="hidden" name="access_key" value="25da4c42-8059-4def-9b1f-3afdbcf2d887">
+            <input type="text" placeholder="Enter your name" name="name" required>
+            <input placeholder="Enter your email" type="email" name="email" required>
+            <textarea placeholder="Enter message" name="message" required></textarea>
+            <button id="submit" type="submit">Submit Form</button>
         </form>
       </div>
     </div>
@@ -147,34 +148,7 @@
     </div>
 
 
-    <!------------ email.js for sending email---------------->
-
-
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-      (function() {
-          // https://dashboard.emailjs.com/admin/account
-          emailjs.init({
-            publicKey: "lf1nbzsTVGxXOKW3C",
-          });
-      })();
-  </script>
-  <script type="text/javascript">
-    window.onload = function() {
-        document.getElementById('contact-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            // these IDs from the previous steps
-            emailjs.sendForm('contact_service', 'contact_form', this)
-                .then(() => {
-                    console.log('SUCCESS!');
-                }, (error) => {
-                    console.log('FAILED...', error);
-                });
-        });
-    }
-  </script>
-
-
+    <!------------ w3form script forsending email---------------->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
   </body>
 </html>

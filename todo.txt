@@ -1,5 +1,7 @@
 1. add font style
 2. create logo from canva
 3. edit the same background picture 
-5. make hamburger in last
-4. make responsive for ipad air and i pad pro(do in last)
+4. make hamburger in last
+5. make responsive for ipad air and i pad pro(do in last)
+6. add js script for about me switch 
+7. make background color grey alternatively

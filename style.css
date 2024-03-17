@@ -87,6 +87,7 @@ nav ul li a{
     margin-top: 0px;
 }
 
+
 .aboutMe p{
     color: white;
     font-size: 20px;
@@ -94,6 +95,52 @@ nav ul li a{
     width: 600px;
 }
 
+/* --------------------------skills--------------- */
+
+#skills{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 90vh;
+    width: 90%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    width: 80px;
+    height: 80px;
+    border: 5px solid #ff004f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+
+
+.boxes img{
+    width: 70px;
+}
+
+#skills h1{
+    text-align: center;
+    color: white;
+}
 
 /*--------------------------- projects------------------ */
 
@@ -110,8 +157,7 @@ nav ul li a{
 .project-heading h1{
     color: white;
     text-align: center;
-    margin-bottom: 100px;
-
+    margin: 50px;
 }
 
 .project-list{
@@ -208,6 +254,7 @@ nav ul li a{
     border: none;
     border-radius: 5px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .form{

@@ -137,9 +137,13 @@ nav ul li a{
     width: 70px;
 }
 
-#skills h1{
+#skills h1,h2{
     text-align: center;
     color: white;
+}
+
+#wp{
+    border-radius: 50%;
 }
 
 /*--------------------------- projects------------------ */
@@ -157,7 +161,7 @@ nav ul li a{
 .project-heading h1{
     color: white;
     text-align: center;
-    margin: 50px;
+    margin: 20px;
 }
 
 .project-list{
@@ -168,15 +172,16 @@ nav ul li a{
 
 .card{
     border: 1px solid gray;
-    height: 350px;
+    height: 380px;
     width: 250px;
     border-radius: 10px;
     color: #ff004f;
 }
 
-.card h1{
+.card h1,h2,h3,h5{
     text-align: center;
     margin: 10px;
+    color: #ff004f;
 }
 
 .card img{
@@ -184,14 +189,9 @@ nav ul li a{
     margin: 10px;
 }
 
-.card h5{
-    text-align: center;
-    color: white;
-}
-
 .card p{
     text-align: center;
-    color:white
+    color:white;
 }
 
 .links{
@@ -199,12 +199,19 @@ nav ul li a{
     justify-content: space-around;
 }
 
+.links h3,a{
+    color: #ff004f;
+    text-decoration: none;
+}
+
 .points{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .points p{
     margin-top: 10px;
+    text-align: left;
+    margin: 10px;
 }
 
 /*-------------------------- conatct ------------------ */
@@ -257,6 +264,10 @@ nav ul li a{
     cursor: pointer;
 }
 
+.button a{
+    color: white;
+}
+
 .form{
     margin-top: 50px;
     height: 80vh;
@@ -280,6 +291,7 @@ form input{
     height: 30px;
     width: 450px;
     border: none;
+    color: white;
     background-color: #282828;
     padding: 10px;
     margin-top: 45px;
@@ -293,9 +305,10 @@ form textarea{
     padding: 10px;
     margin-top: 45px;
     border: none;
+    color: white;
 }
 
-form button{
+#submit{
     margin: 10px;
     height: 40px;
     background-color: #ff004f;
@@ -305,4 +318,17 @@ form button{
     width: 450px;
     margin-top: 45px;
     cursor: pointer;
+}
+
+.rights{
+    text-align: center;
+    height:100px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights h2{
+    color: white;
 }
